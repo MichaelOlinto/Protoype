@@ -14,6 +14,9 @@ function App() {
           <Navbar />
         </ListItem>
         <ListItem>
+          <Menu />
+        </ListItem>
+        <ListItem>
           <ContainerDashboard />
         </ListItem>
         <ListItem>

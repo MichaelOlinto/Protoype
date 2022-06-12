@@ -48,7 +48,7 @@ const ContainerDashboard = () => {
                     }}>
                     <Stack direction="column">
                         <Item>
-                            <Typography>
+                            <Typography variant="body1" fontSize={11}>
                                 Currently learning
                             </Typography>
                         </Item>

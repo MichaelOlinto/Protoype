@@ -5,7 +5,9 @@ import * as React from 'react';
 
 const Menu = () => {
   return (
-    <Drawer variant='permanent'>
+    <Drawer variant='permanentgi' sx={{
+      backgroundColor: '#2196f3'
+      }}>
       <List>
         <ListItemButton>
           <ListItemIcon>
