@@ -24,6 +24,7 @@ const ContainerEvents = () => {
             sx={{
             p: 2,
             margin: 13,
+            marginBottom: 0,
             border: 0,
             maxWidth: 'auto',
             flexGrow: 1,

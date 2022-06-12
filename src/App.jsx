@@ -5,6 +5,8 @@ import theme from './themeConfig';
 import ContainerDashboard2 from './Components/ContainerDashboard2';
 import ContainerDashboard from './Components/ContainerDashboard';
 import ContainerEvents from './Components/ContainerEvents';
+import Activity from './Components/Activity';
+import Progress from './Components/Progress';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
         </ListItem>
         <ListItem>
           <ContainerEvents />
+        </ListItem>
+        <ListItem>
+          <Activity />
+        </ListItem>
+        <ListItem>
+          <Progress />
         </ListItem>
       </List>
       
